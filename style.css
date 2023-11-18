@@ -8,10 +8,14 @@ body {
 main {
     display: flex;
     justify-content: center;
-    align-items: center;
+    margin: 0;
 }
 #currentNum {
     font-size: 150px;
+    font-family: 'Abril Fatface', serif;
+    display: flex;
+    justify-content: center;
+    transition-duration: .53s;
 }
 #button-bar {
     display: flex;
@@ -25,9 +29,10 @@ button {
     font-size: 20px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 10px;
+    transition-duration: .63s;
 }
 button:hover {
     background-color: black;
     color: white;
-    transition-duration: .43s;
+    transition-duration: .63s;
 }
