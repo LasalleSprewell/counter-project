@@ -3,29 +3,29 @@ let currentNumber = 0;
 const numberUpdate = document.getElementById("currentNum");
 
 // Decrese Button Setup
-let decButton = document.getElementById("decrease");
+let decButton = document.getElementById("decrease")
 
 // Increase Button Setup
-let inButton = document.getElementById("increase");
+let inButton = document.getElementById("increase")
 
 // Reset Button Setup
-let resButton = document.getElementById("reset");
+let resButton = document.getElementById("reset")
 
 // Color Change Setup
 const red = ()=>{
     if(numberUpdate){
         numberUpdate.style.color = "red";
     }
-};
+}
 const green = () =>{
     if(numberUpdate){
-        numberUpdate.style.color = "green";
+        numberUpdate.style.color = "green"
     }
 }
 const black = () =>{
     if(numberUpdate){
         numberUpdate.style.color = "black";
-    }
+    }}
 // Color Change Function
 const colorChange = ()=>{
     if (currentNumber > 0){
