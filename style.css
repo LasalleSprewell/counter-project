@@ -9,6 +9,12 @@ main {
     display: flex;
     justify-content: center;
     margin: 0;
+    padding-bottom: 30px;
+}
+h1{
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
 }
 #currentNum {
     font-size: 150px;
@@ -21,15 +27,17 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
+    
 
 }
 button {
     border-radius: 30px;
-    padding: 10px;
+    padding: 20px;
     font-size: 20px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 10px;
+    font-family: 'DM Sans', sans-serif;
+    margin: 50px;
     transition-duration: .63s;
+
 }
 button:hover {
     background-color: black;
